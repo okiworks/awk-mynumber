@@ -17,6 +17,7 @@ $ awk -f validate_mynumber.awk checkdata.txt > valid.txt
 
 ## Author
 Hironao Oki (http://oki.hateblo.jp/)
+
 blog:[awkでマイナンバーのチェックデジットを検証・集計 - 沖の雑記帳](http://oki.hateblo.jp/entry/2016/03/07/143644)
 
 ## Reference
