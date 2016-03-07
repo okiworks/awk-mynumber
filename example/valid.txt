@@ -1,0 +1,80 @@
+1234567890123 :requires 12-digit.
+
+mynumber : 123456789010
+digit    : 8
+validate : false
+
+mynumber : 123456789011
+digit    : 8
+validate : false
+
+mynumber : 123456789012
+digit    : 8
+validate : false
+
+mynumber : 123456789013
+digit    : 8
+validate : false
+
+mynumber : 123456789014
+digit    : 8
+validate : false
+
+mynumber : 123456789015
+digit    : 8
+validate : false
+
+mynumber : 123456789016
+digit    : 8
+validate : false
+
+mynumber : 123456789017
+digit    : 8
+validate : false
+
+mynumber : 123456789018
+digit    : 8
+validate : true
+
+mynumber : 123456789010
+digit    : 8
+validate : false
+
+mynumber : 023456789013
+digit    : 3
+validate : true
+
+1234567890 :requires 12-digit.
+
+Unexpected data.
+
+abcdefghijkl : Not be used non-numeric.
+
+12b45671b999 : Not be used non-numeric.
+
+abcd111 : Not be used non-numeric.
+
+mynumber : 486855818850
+digit    : 0
+validate : true
+
+mynumber : 874413748700
+digit    : 4
+validate : false
+
+mynumber : 700971250770
+digit    : 3
+validate : false
+
+mynumber : 789947831400
+digit    : 5
+validate : false
+
+Summary:
+  Number of data : 21
+  Valid data     : 3
+	123456789018
+	023456789013
+	486855818850
+  Invalid data   : 12
+  Illegal data   : 6
